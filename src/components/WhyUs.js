@@ -5,9 +5,9 @@ import sillycon from '../assets/whyimgs/GettyImages-954876578.webp';
 import success from '../assets/whyimgs/image.webp';
 import '../css/whyus.css'
 
-const WhyUs = () => {
+const WhyUs = (props) => {
     return (
-        <>
+        <div id={props.id} style={{padding: '70px'}}>
             <h2 className="text-center my-5">¿Por qué nosotros?</h2>
             <Container>
 
@@ -50,7 +50,7 @@ const WhyUs = () => {
                     <Button className="btn-custom" size="lg">Comienza tu carrera con nosotros</Button>
                 </div>
             </Container>
-        </>
+        </div>
     );
 };
 

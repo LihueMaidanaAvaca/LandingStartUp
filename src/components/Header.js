@@ -10,9 +10,9 @@ export default function Header() {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">
                         <Nav.Link href="#home">Inicio</Nav.Link>
-                        <Nav.Link href="#features">Sobre Nosotros</Nav.Link>
-                        <Nav.Link href="#pricing">Por Que Elegirnos</Nav.Link>
-                        <Nav.Link href="#contact">Contacto</Nav.Link>
+                        <Nav.Link href="#about">Sobre Nosotros</Nav.Link>
+                        <Nav.Link href="#whyus">Por Que Elegirnos</Nav.Link>
+                        <Nav.Link href="#footer">Contacto</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

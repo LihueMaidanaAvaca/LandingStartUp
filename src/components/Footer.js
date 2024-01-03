@@ -2,9 +2,9 @@ import React from 'react';
 import { Container, Row, Col, Nav } from 'react-bootstrap';
 import '../css/footer.css'
 
-const Footer = () => {
+const Footer = (props) => {
     return (
-        <footer className="bg-dark text-white mt-4">
+        <footer className="bg-dark text-white mt-4" id={props.id} style={{padding: "70px"}}>
             <Container>
                 <Row>
                     <Col md={4}>
@@ -41,7 +41,7 @@ const Footer = () => {
                     </Col>
                 </Row>
                 <Row>
-                    <Col className="text-center py-3">
+                    <Col className="text-center py-5">
                         © 2023 Tu Compañía - Todos los derechos reservados
                     </Col>
                 </Row>

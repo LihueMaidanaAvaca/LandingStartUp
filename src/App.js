@@ -8,10 +8,10 @@ function App() {
   return (
     <div className="App">
       <Header/>
-      <Carrusel/>
-      <AboutUs/>
-      <WhyUs/>
-      <Footer/>
+      <Carrusel id="home"/>
+      <AboutUs id="about"/>
+      <WhyUs id="whyus"/>
+      <Footer id="footer"/>
     </div>
   );
 }

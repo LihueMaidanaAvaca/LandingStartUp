@@ -5,9 +5,9 @@ import robotica from '../assets/robotica.jpg';
 import solarpanel from '../assets/solarpanel.jpg';
 import developers from '../assets/developers.jpg'
 
-export default function Carrusel() {
+export default function Carrusel(props) {
     return (
-        <Carousel >
+        <Carousel id={props.id}>
             <Carousel.Item>
                 <Image
                     className="d-block w-100"
