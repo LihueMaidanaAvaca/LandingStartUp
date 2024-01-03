@@ -1,0 +1,22 @@
+.card-verde {
+    background-color: #7abb3b;
+    color: white; /* Cambia el color del texto a blanco para mejor contraste */
+  }
+
+.card-img-top {
+    height: 200px; /* Establece el alto deseado */
+    object-fit: cover; /* Asegura que la imagen cubra completamente el área sin distorsionarse */
+    width: 100%; /* Asegura que la imagen se ajuste al ancho del contenedor */
+}
+
+.btn-custom {
+    background-color: #7abb3b; /* Color de fondo personalizado */
+    color: white; /* Color del texto */
+    border: none; /* Sin bordes */
+    transition: transform 0.3s; /* Transición suave */
+  }
+  
+  .btn-custom:hover {
+    background-color: #689f38; /* Verde más oscuro al pasar el cursor */
+    transform: scale(1.05); /* Efecto de escala al pasar el cursor */
+  }
