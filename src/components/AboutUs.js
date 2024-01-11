@@ -9,7 +9,7 @@ const AboutUs = (props) => {
             <Container fluid className="about-us-section" style={{ backgroundColor: '#7abb3b', color: 'white', padding: '60px' }}>
                 <Container style={{ paddingTop: '30px' }}>
                     <Row>
-                        <Col md={6} className="d-none d-md-block">
+                        <Col md={6} className="imagen-con-gradiente d-none d-md-block">
                             <Image src={team} alt="Descripción de la imagen" fluid style={{ borderRadius: '50%', overflow: 'hidden' }} />
                         </Col>
                         <Col md={6} xs={12}>

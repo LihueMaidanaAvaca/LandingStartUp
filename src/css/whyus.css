@@ -9,14 +9,15 @@
     width: 100%; /* Asegura que la imagen se ajuste al ancho del contenedor */
 }
 
-.btn-custom {
-    background-color: #7abb3b; /* Color de fondo personalizado */
-    color: white; /* Color del texto */
-    border: none; /* Sin bordes */
-    transition: transform 0.3s; /* Transición suave */
-  }
+/* .btn-custom {
+    background-color: #7abb3b; 
+    color: white; 
+    border: none; 
+    transition: transform 0.3s; 
+}
   
-  .btn-custom:hover {
-    background-color: #689f38; /* Verde más oscuro al pasar el cursor */
-    transform: scale(1.05); /* Efecto de escala al pasar el cursor */
-  }
+.btn-custom:hover {
+    background-color: #689f38; 
+    transform: scale(1.05); 
+}
+   */

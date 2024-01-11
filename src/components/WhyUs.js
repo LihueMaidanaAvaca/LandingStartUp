@@ -5,7 +5,7 @@ import sillycon from '../assets/whyimgs/GettyImages-954876578.webp';
 import success from '../assets/whyimgs/image.webp';
 import '../css/whyus.css'
 
-const WhyUs = (props) => {
+export default function WhyUs (props) {
     return (
         <div id={props.id} style={{padding: '70px'}}>
             <h2 className="text-center my-5">¿Por qué nosotros?</h2>
@@ -29,7 +29,7 @@ const WhyUs = (props) => {
                             <Card.Body>
                                 <Card.Title>Learn from industry experts </Card.Title>
                                 <Card.Text>
-                                    Your Instructors and Mentors teach and guide you through your journey at Masterschool until you find your first job. They offer you an insider’s perspective of the industry and lead 1:1 sessions. You can be sure that what you’re learning is exactly what you need to know to secure a job in the workforce today.
+                                Your instructors and mentors at Masterschool will guide and teach you until you land your first job, providing an insider's view of the industry and personalized sessions. You'll receive relevant and practical training to secure a job in today's job market.
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -53,5 +53,3 @@ const WhyUs = (props) => {
         </div>
     );
 };
-
-export default WhyUs;

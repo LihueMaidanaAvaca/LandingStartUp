@@ -13,7 +13,7 @@ export default function Carrusel(props) {
                     className="d-block w-100"
                     src={ai}
                     alt="Primer slide"
-                    style={{ height: '70vh', objectFit: 'cover', filter: 'brightness(65%)' }}
+                    style={{ height: '40vh', objectFit: 'cover', filter: 'brightness(65%)' }}
                 />
                 <Carousel.Caption>
                     <h1>Inteligencia Artificial: Transformando el Futuro con IA</h1>
@@ -25,7 +25,7 @@ export default function Carrusel(props) {
                     className="d-block w-100"
                     src={solarpanel}
                     alt="Segundo slide"
-                    style={{ height: '70vh', objectFit: 'cover', filter: 'brightness(65%)' }}
+                    style={{ height: '40vh', objectFit: 'cover', filter: 'brightness(65%)' }}
                 />
                 <Carousel.Caption>
                     <h1>Experto en Instalación de Paneles Solares: Energía Limpia para el Futuro</h1>
@@ -37,7 +37,7 @@ export default function Carrusel(props) {
                     className="d-block w-100"
                     src={robotica}
                     alt="Tercer slide"
-                    style={{ height: '70vh', objectFit: 'cover', filter: 'brightness(65%)' }}
+                    style={{ height: '40vh', objectFit: 'cover', filter: 'brightness(65%)' }}
                 />
                 <Carousel.Caption>
                     <h1>Robótica: Diseñando el Futuro con Tecnología Innovadora</h1>
@@ -49,7 +49,7 @@ export default function Carrusel(props) {
                     className="d-block w-100"
                     src={developers}
                     alt="Cuarto slide"
-                    style={{ height: '70vh', objectFit: 'cover', filter: 'brightness(65%)' }}
+                    style={{ height: '40vh', objectFit: 'cover', filter: 'brightness(65%)' }}
                 />
                 <Carousel.Caption>
                     <div>

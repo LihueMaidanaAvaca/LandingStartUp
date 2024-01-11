@@ -1,0 +1,17 @@
+.button-arounder {
+    background-color: black; /* Fondo negro */
+    color: white; /* Texto blanco */
+    border: 2px solid black; /* Borde negro */
+    padding: 15px 25px; /* Espaciado interno */
+    text-align: center; /* Alineación del texto */
+    text-decoration: none; /* Sin subrayado para enlaces */
+    display: inline-block; /* Para permitir el uso de padding y centrado */
+    font-size: 24px; /* Tamaño del texto */
+    cursor: pointer; /* Cambiar el cursor a puntero */
+    transition: background-color 0.3s, color 0.3s; /* Transición suave para hover */
+  }
+  
+  .button-arounder:hover {
+    color: black; /* Texto negro en hover */
+    background-color: white; /* Fondo blanco en hover */
+  }

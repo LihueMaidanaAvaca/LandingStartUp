@@ -42,7 +42,7 @@ const Footer = (props) => {
                 </Row>
                 <Row>
                     <Col className="text-center py-5">
-                        © 2023 Tu Compañía - Todos los derechos reservados
+                        © 2024 Tech Global Talent - Todos los derechos reservados
                     </Col>
                 </Row>
             </Container>
